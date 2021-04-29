@@ -54,35 +54,75 @@ body{
 }
 
 .about{
+    color: rgb(0, 0, 0);
     width: 100%;
     padding-left: 1em;
     font-family: arial, sans-serif;
     font-size: 0.9em;
+    text-decoration: none;
     /* background-color: purple; */
 }
 
+.linked{
+    text-decoration: none;
+}
+
+.linked:hover{
+    text-decoration: underline;
+}
+
 .store{
+    color: rgb(0, 0, 0);
     width: 100%;
-    padding-left: 1em;
+    padding-left: -2em;
     /* background-color: salmon; */
     font-family: arial, sans-serif;
     font-size: 0.9em;
+    text-decoration: none;
 }
 
 .email{
+    color: rgb(0, 0, 0);
     width: 3em;
     padding-left: 1em;
     /* background-color: salmon; */
     font-family: arial, sans-serif;
     font-size: 0.8em;
+    text-decoration: none;
 }
 
 .pictures{
-    width: 100%;
+    color: rgb(0, 0, 0);
+    width: 5em;
     padding-left: 1em;
     /* background-color: salmon; */
     font-family: arial, sans-serif;
     font-size: 0.8em;
+    text-decoration: none;
+}
+
+.photo{
+    margin-left: 1em;
+    border-radius: 50% 50% 50% 50%;
+    
+}
+
+.photo:hover{
+    box-shadow: 0 0 0.2em gray;
+}
+
+.dots{
+    
+    height: 1em;
+    width: 1em;
+    padding-left: 1em;
+    opacity: 0.8;
+}
+
+.dots:hover{
+
+    box-shadow: 0 0 0.2em gray;
+    
 }
 
 .space{
@@ -173,7 +213,16 @@ body{
     height: 3em;
     width: 100%;
 
-    background-color: blue;
+    /* background-color: blue; */
+
+    
+    font-size: 0.875em;
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 .space2{
