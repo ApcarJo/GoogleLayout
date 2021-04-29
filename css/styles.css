@@ -1,14 +1,19 @@
+body{
+    all:unset;
+    width: 100vw;
+    height: 100vh;
 
+}
 .father{
-    height: 100em;
-    width: 100em;
+    height: 100%;
+    width: 100%;
     /* background-color: blue;  */
         
 }
 
 .top{
     height: 2em;
-    width: 100em;
+    width: 100%;
 
     /* background-color: pink; */
 
@@ -19,14 +24,19 @@
 
 .left{
     height: 5em;
-    width: 20em;
-
+    width: 20%;
+    
+    padding-top: 1%;
+    padding-left: 2%;
+    
+    font-family: arial, sans-serif;
+    font-size: 1em;
     /* background-color: aqua; */
 }
 
 .right{
     height: 5em;
-    width: 20em;
+    width: 20%;
 
     /* background-color: red; */
 }
@@ -34,30 +44,37 @@
 .spaceDivTop{
 
     height: 5em;
-    width: 60em;
+    width: 60%;
 
     /* background-color: blueviolet; */
 }
 
 .blankSpace{
-    height: 60em;
-    width: 100em;
+    height: 60%;
+    width: 100%;
     /* background-color: pink; */
    
 }
 
 .blankTop{
-    height: 2em;
-    width: 100em;
+    height: 2.6em;
+    width: 100%;
     /* background-color: green; */
 }
 
 .blankBot{
     height: 10em;
-    width: 100em;
+    width: 100%;
     /* background-color: rgb(228, 0, 38); */
 
     display: flex;
+}
+
+.blankBottom{
+    height: 3em;
+    width: 100%;
+
+    /* background-color: springgreen; */
 }
 
 .leftSpace{
@@ -87,7 +104,7 @@
 }
 
 .logo2{
-    height: 3;
+    height: 5.75em;
     width: auto;
 }
 
@@ -106,13 +123,13 @@
     width: 40em;
 
     border-radius: 50px 50px 50px 50px;
-    border: grey 0.1em solid;
-
-    
+    border: grey 0.015em solid;
+    opacity: 0.5;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .navSearch{
