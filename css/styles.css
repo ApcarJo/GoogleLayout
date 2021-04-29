@@ -178,6 +178,20 @@ body{
     box-shadow: 0 0.1em 0.3em gray;
 }
 
+.icon1{
+    height: 1em;
+    width: auto;
+    opacity: 0.8;
+    margin-right: -2.25em;
+}
+
+.icon2{
+    height: 2em;
+    width: auto;
+    margin-left: -2.75em;
+    z-index: 4;
+}
+
 
 
 .googleButtons{
@@ -214,15 +228,13 @@ body{
     width: 100%;
 
     /* background-color: blue; */
-
     
     font-size: 0.875em;
     font-family: arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+        
 }
 
 .space2{
