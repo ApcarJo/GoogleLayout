@@ -1,0 +1,124 @@
+
+.father{
+    height: 100em;
+    width: 100em;
+    /* background-color: blue;  */
+        
+}
+
+.top{
+    height: 2em;
+    width: 100em;
+
+    /* background-color: pink; */
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left{
+    height: 5em;
+    width: 20em;
+
+    /* background-color: aqua; */
+}
+
+.right{
+    height: 5em;
+    width: 20em;
+
+    /* background-color: red; */
+}
+
+.spaceDivTop{
+
+    height: 5em;
+    width: 60em;
+
+    /* background-color: blueviolet; */
+}
+
+.blankSpace{
+    height: 60em;
+    width: 100em;
+    /* background-color: pink; */
+   
+}
+
+.blankTop{
+    height: 2em;
+    width: 100em;
+    /* background-color: green; */
+}
+
+.blankBot{
+    height: 10em;
+    width: 100em;
+    /* background-color: rgb(228, 0, 38); */
+
+    display: flex;
+}
+
+.leftSpace{
+    height: 30em;
+    width: 20em;
+    /* background-color: yellow; */
+}
+
+.rightSpace{
+    height: 30em;
+    width: 20em;
+    /* background-color: yellow; */
+}
+
+.midSpace{
+    height: 30em;
+    width: 60em;
+    /* background-color: rgb(0, 119, 128); */
+}
+.logo{
+    height: 6em;
+    width: 60em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    height: 3;
+    width: auto;
+}
+
+.searchBar{
+    height: 10em;
+    width: 60em;
+    /* background-color: white; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    height: 3em;
+    width: 40em;
+
+    border-radius: 50px 50px 50px 50px;
+    border: grey 0.1em solid;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navSearch{
+    height: 3em;
+    width: 40em;
+    border: 0;
+    outline: none;
+}
+
