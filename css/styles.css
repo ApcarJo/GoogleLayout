@@ -245,17 +245,16 @@ body{
 }
 
 .space2{
-    height: 25.5em;
+    height: 27em;
     width: 100%;
 
     /* background-color: purple; */
 }
 
 .googleLegacy1{
-    height: 6em;
+    height: 4em;
     width: 100%;
-
-    padding: 1em 2em;
+    padding: 1em 1.5em;
     box-sizing: border-box;
     font-family: arial, sans-serif;
     font-size: 0.875em;
@@ -265,7 +264,7 @@ body{
 }
 
 .googleLegacy2{
-    height: 6em;
+    height: 4em;
     width: 100%;
 
     display: flex;
@@ -296,7 +295,7 @@ body{
 }
 
 .space3{
-    height: 7em;
+    height: 3em;
     width: 60em;
 
     display: flex;
