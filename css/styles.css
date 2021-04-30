@@ -296,8 +296,10 @@ body{
 
 .space3{
     height: 3em;
-    width: 60em;
+    width: auto;
 
+    margin-left: 12em;
+    margin-right: 20em;
     display: flex;
     justify-content: center;
     align-items: center;
